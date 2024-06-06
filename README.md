@@ -5,7 +5,7 @@ A list of contents from the EndUser table are shown after logging in:
 ![Output screen of get EndUsers](get-endusers.png)
 
 A security key file is used to store encryption keys that are necessary for encrypting and decrypting data. 
-Without this key file, encrypted data cannot be decrypted.
+Without this key file, encrypted data cannot be decrypted. **It's very important to safekeep and restrict access to the key file!**
 
 For this sample application to run you first need to generate your key file. Also you need to save the encrypted value for the database password.
 This is done in one go when you run the class `SecurityUtils` through it's main entry point:
