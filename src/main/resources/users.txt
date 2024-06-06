@@ -1,0 +1,3 @@
+user1=winter
+user2=summer
+admin=Cocacola01
